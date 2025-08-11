@@ -7,4 +7,3 @@ google-generativeai
 tidb-vector
 sqlalchemy
 pymysql
-mysqlclient 
