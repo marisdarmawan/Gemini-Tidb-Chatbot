@@ -56,7 +56,7 @@ def get_vector_store(text_chunks):
 
 def get_conversational_chain():
     """Creates a conversational chain for question answering."""
-    model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3)
+    model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3)
     chain = load_qa_chain(model, chain_type="stuff")
     return chain
 
