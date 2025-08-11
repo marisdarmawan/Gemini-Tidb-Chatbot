@@ -1,9 +1,10 @@
 streamlit
 PyPDF2
 langchain
-langchain-community  # <-- Add this line
+langchain-community
 langchain-google-genai
 google-generativeai
 tidb-vector
 sqlalchemy
 pymysql
+mysqlclient 
