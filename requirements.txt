@@ -1,0 +1,8 @@
+streamlit
+PyPDF2
+langchain
+langchain-google-genai
+google-generativeai
+tidb-vector
+sqlalchemy
+pymysql
