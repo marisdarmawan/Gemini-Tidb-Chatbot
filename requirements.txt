@@ -1,6 +1,7 @@
 streamlit
 PyPDF2
 langchain
+langchain-community  # <-- Add this line
 langchain-google-genai
 google-generativeai
 tidb-vector
