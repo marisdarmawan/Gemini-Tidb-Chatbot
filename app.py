@@ -7,6 +7,9 @@ from langchain_community.vectorstores import TiDBVectorStore
 from langchain.chains.question_answering import load_qa_chain
 from langchain_google_genai import ChatGoogleGenerativeAI
 from sqlalchemy import create_engine, text
+import pymysql
+
+pymysql.install_as_MySQLdb()
 
 # --- Configuration using Streamlit Secrets ---
 # Streamlit will automatically read the secrets from your .streamlit/secrets.toml file
